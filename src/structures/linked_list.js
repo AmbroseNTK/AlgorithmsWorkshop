@@ -136,6 +136,8 @@ LinkedList.prototype.collect = function (filter) {
     }
     return result;
 }
+/*
+Example
 
 let list = new LinkedList();
 list.addLast(1);
@@ -144,5 +146,5 @@ list.addLast(3);
 
 list.remove((index, data) => index == 0);
 list.remove((index, data) => index == 0);
-
+*/
 module.exports = { constructor: LinkedList };
